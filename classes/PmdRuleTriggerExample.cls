@@ -1,7 +1,7 @@
 public class PmdRuleTriggerExample {
 
     public static void badCryptoExample() {
-        // ❌ ApexBadCrypto: Using weak hashing algorithm (MD5)
+        // ❌ ApexBadCrypto: Using weak hashing algorithm (MD5) 20Feb26
         Blob data = Blob.valueOf('SensitiveData');
 
         // MD5 is considered insecure by PMD
